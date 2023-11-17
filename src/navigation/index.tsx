@@ -5,7 +5,7 @@ import { AudioTrim } from "../views/AudioTrim";
 
 export type RootStackParamList = {
     VideoSelect: undefined;
-    AudioTrim: undefined;
+    AudioTrim: { samples: number[] };
     VideoConvert: { uri: string };
 };
 
